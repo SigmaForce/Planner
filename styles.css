@@ -1,4 +1,10 @@
+html {
+    font-size: 80%;
+  }
+
 /*Inicio do Estilo do cabeçalho*/
+
+
 
 header{
     height: 20vh;
@@ -21,7 +27,7 @@ header{
 #cabecalho ul li{
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
 
 }
 
@@ -63,13 +69,13 @@ button:hover{
 main{
     width: 90vw;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    display: inline;
 }
 
 #description{
+    margin: auto;
     text-align: justify;
-    width: 65%;
+    width: 85%;
     font-size: max(2vw,1.5rem);
 }
 
@@ -99,8 +105,12 @@ main{
 }
 
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     main {
-      display: inline;
+    display: flex;
+    justify-content: space-between;
+    }
+    html{
+        font-size: 63%;
     }
   }
