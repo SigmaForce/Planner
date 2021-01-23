@@ -5,30 +5,25 @@ html {
 /*Inicio do Estilo do cabeçalho*/
 
 
-
 header{
     height: 20vh;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#cabecalho{
-    width: 50%;
-}
 #cabecalho ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 5rem;
+    column-gap: 2rem;
+    margin-left: 5rem;
 }
 
 #cabecalho ul li{
     font-family: 'Roboto', sans-serif;
     list-style: none;
-    font-size: 2.5rem;
-
+    font-size: 1.5rem;
 }
 
 #cabecalho ul li a{
@@ -37,30 +32,28 @@ header{
     text-align: center;
     color: #06092b;
 }
+
 #cabecalho ul li a:hover{
     opacity: 0.6;
 }
-#logar{
-    width: 40%;
-    float: right;
-}
 
 button{
-  cursor: pointer;
-  color: aliceblue;
-  float: right;
-  background-color:  #06092b ; 
-  width: 10rem;
-  height: 3rem;
-  font-size: large;
-  margin-right:5rem;
-  border: 1px solid #06092b;
-  border-radius: 1rem;
-}
+    cursor: pointer;
+    color: aliceblue;
+    float: right;
+    background-color:  #06092b ; 
+    width: 7rem;
+    height: 3rem;
+    font-size: large;
+    margin-right:5rem;
+    border: 1px solid #06092b;
+    border-radius: 1rem;
+  }
+  
+  button:hover{
+      opacity: 0.85;
+  }
 
-button:hover{
-    opacity: 0.85;
-}
 /*
     FIM DO ESTILO CABECALHO
 */
@@ -113,4 +106,22 @@ main{
     html{
         font-size: 63%;
     }
+    button{
+        width: 15rem;
+        height: 5rem;
+    }
+
+    #cabecalho ul li{
+        font-size: 2.1rem;
+    }
+    #cabecalho ul{
+        column-gap: 5rem;
+        margin-left: 8rem;
+    }
+    #image{
+        width: 120%;
+
+    }
+
+
   }
