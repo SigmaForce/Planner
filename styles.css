@@ -1,0 +1,106 @@
+/*Inicio do Estilo do cabeçalho*/
+
+header{
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho{
+    width: 50%;
+}
+#cabecalho ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+#cabecalho ul li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 1.6rem;
+
+}
+
+#cabecalho ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    color: #06092b;
+}
+#cabecalho ul li a:hover{
+    opacity: 0.6;
+}
+#logar{
+    width: 40%;
+    float: right;
+}
+
+button{
+  cursor: pointer;
+  color: aliceblue;
+  float: right;
+  background-color:  #06092b ; 
+  width: 10rem;
+  height: 3rem;
+  font-size: large;
+  margin-right:5rem;
+  border: 1px solid #06092b;
+  border-radius: 1rem;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+/*
+    FIM DO ESTILO CABECALHO
+*/
+
+/*INICIO DO ESTILO DA MAIN*/
+main{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#description{
+    text-align: justify;
+    width: 65%;
+    font-size: max(2vw,1.5rem);
+}
+
+#description p{
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 100%;
+    font-weight: 400;
+}
+#cadastro{
+    margin-top: 1.5rem;
+    float: left ; 
+    width: 100%;
+    font-size: 2rem;
+    padding: 2rem 2rem 4rem;
+}
+
+#image{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#image img{
+    width: 77%;
+    
+}
+
+
+@media (max-width: 800px) {
+    main {
+      display: inline;
+    }
+  }
