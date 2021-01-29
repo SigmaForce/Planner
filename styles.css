@@ -125,3 +125,24 @@ main{
 
 
   }
+
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    opacity: 0.97;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.modal-view{
+    background-color: #e1e1e1;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    opacity: 2;
+}
